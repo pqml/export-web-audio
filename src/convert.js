@@ -39,7 +39,7 @@ function convert (input, output, opts) {
           resolve()
         })
         .catch(out => {
-          if (!opts.quiet) sh.error(out.stdout)
+          if (!opts.quiet) sh.error(out.stderr)
           resolve()
         })
     })

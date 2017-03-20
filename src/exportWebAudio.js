@@ -29,7 +29,6 @@ const defOpts = {
   overwrite: false
 }
 
-
 function processPath (filePath, opts) {
   return new Promise((resolve, reject) => {
     fs.stat(filePath, (err, stats) => {

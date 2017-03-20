@@ -38,7 +38,10 @@ function convert (input, output, opts) {
           if (!opts.quiet) sh.log(sh.colors.gray('✔︎ ' + relInput + ' → ' + relOutput))
           resolve()
         })
-        .catch(out => reject(out.stderr))
+        .catch(out => {
+          if (!opts.quiet) sh.error(out.stdout)
+          resolve()
+        })
     })
   })
 }

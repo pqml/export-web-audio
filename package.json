@@ -31,6 +31,7 @@
     "command-exists": "^1.2.2",
     "fs-extra": "^2.1.2",
     "kool-shell": "^1.4.3",
-    "minimist": "^1.2.0"
+    "minimist": "^1.2.0",
+    "run-series": "^1.1.4"
   }
 }

@@ -1,6 +1,6 @@
 {
   "name": "export-web-audio",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Export clean audio samples to avoid crackling sound with the Web Audio API on iOS",
   "main": "src/index.js",
   "bin": {

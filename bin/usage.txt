@@ -1,0 +1,14 @@
+export-web-audio
+
+Usage:
+  export-web-audio
+  export-web-audio ENTRY
+  export-web-audio ENTRY -o OUTPUT
+  export-web-audio ENTRY -b <bitrate>
+
+Options:
+  -h, --help        Show this screen.
+  -o, --output      Output file or directory
+  -b, --bitrate     Encoding bitrate (default: 128kbps)
+  -q, --quiet       Suppress log messages
+  -y, --overwrite   Overwrite output files if they already exist

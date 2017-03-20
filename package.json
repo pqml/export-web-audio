@@ -1,0 +1,36 @@
+{
+  "name": "export-web-audio",
+  "version": "0.0.1",
+  "description": "Export clean audio samples to avoid crackling sound with the Web Audio API on iOS",
+  "main": "src/index.js",
+  "bin": {
+    "export-web-audio": "bin/index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pqml/export-web-audio.git"
+  },
+  "keywords": [
+    "ffmpeg",
+    "audio",
+    "webaudioapi",
+    "webaudio",
+    "crackling",
+    "samples"
+  ],
+  "author": "pqml",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pqml/export-web-audio/issues"
+  },
+  "homepage": "https://github.com/pqml/export-web-audio#readme",
+  "dependencies": {
+    "command-exists": "^1.2.2",
+    "fs-extra": "^2.1.2",
+    "kool-shell": "^1.4.3",
+    "minimist": "^1.2.0"
+  }
+}
